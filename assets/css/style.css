@@ -42,22 +42,22 @@ form {
     width: 185px;
     color: #333;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.8em;
     border: solid 1px gray;
     border-radius: 6px;
     background: white;
 }
 
-.link-container {
+.content {
     margin: 0 0 0.4em 0;
+}
+
+.link:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .or {
     margin: 0.8em 0 1.2em;
-}
-
-.input-container {
-    margin: 0 0 0.6em 0;
 }
 
 .input {
@@ -69,6 +69,15 @@ form {
     border: solid grey 1.5px;
 }
 
+.register {
+    font-size: 0.7em;
+    margin: 1.2em 0;
+}
+
+.register-link {
+    text-decoration: none;
+    color: blue;
+}
 .btn {
     margin: 0.6em 0 1.2em 0;
     height: 35px;
@@ -76,6 +85,7 @@ form {
     border: none;
     border-radius: 6px;
     background: rgba(0,168,45,255);
+    cursor: pointer;
     
 }
 
