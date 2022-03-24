@@ -48,6 +48,10 @@ const inverso = valor => {
 }
 
 //7
+const estaEntre = (num, min, max, inclusivo = false) => 
+    (inclusivo) ?
+        (num <= max && num >= min) ? true:false
+        :(num < max && num >= min) ? true:false
 
 //8
 const multiplicar = (a, b) => {
